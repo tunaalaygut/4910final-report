@@ -1,0 +1,115 @@
+\usepackage[english]{babel}
+\usepackage[latin5]{inputenc}
+
+\usepackage{caption}
+\usepackage{listings}
+\lstset{
+	literate={~} {$\sim$}{1}, % set tilde as a literal (no process)      % the language of the code
+	basicstyle=\ttfamily\fontsize{7}{8}\selectfont\bfseries,
+	frame=tb,
+	linewidth=0.98\linewidth,
+	columns=flexible,
+	numbers=left,                   % where to put the line-numbers
+	stepnumber=1,                   % the step between two line-numbers. If it's 1, each line will be numbered
+	numbersep=5pt,                  % how far the line-numbers are from the code
+	showspaces=false,               % show spaces adding particular underscores
+	showstringspaces=false,         % underline spaces within strings
+	showtabs=false,                 % show tabs within strings adding particular underscores
+	frame=single,                   % adds a frame around the code
+	tabsize=2,                      % sets default tabsize to 2 spaces
+	captionpos=b,                   % sets the caption-position to bottom
+	breaklines=true,                % sets automatic line breaking
+	breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+	caption=\lstname,                 % show the filename of files included with \lstinputlisting; also try caption instead of title
+	escapeinside={\%*}{*)},            % if you want to add a comment within your code
+	morekeywords={*,...},               % if you want to add more keywords to the set
+	lineskip={-1.2pt},
+}
+
+\usepackage{latexsym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{multicol}
+
+\usepackage{amsmath}
+
+\usepackage[linesnumbered,ruled]{algorithm2e}
+\DontPrintSemicolon
+\SetKwInOut{Input}{input}
+\SetKwInOut{Output}{output}
+\usepackage{setspace}
+\usepackage{etoolbox}
+\AtBeginEnvironment{algorithm}{\setstretch{1.15}}
+\SetKwInOut{Input}{Input}
+\SetKwInOut{Output}{Output}
+
+\usepackage{float}
+\floatstyle{ruled}
+\usepackage{graphicx}
+\graphicspath{{figures/}}
+\newfloat{myfigure}{thp}{lop}
+\floatname{myfigure}{Figure}
+\newfloat{mytable}{thp}{lop}
+\floatname{mytable}{Table}
+\usepackage{multicol}
+\usepackage{mathtools}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor} %usage \floor*{2/3}
+
+\usepackage{enumerate}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{float}
+\usepackage{multicol}
+\usepackage{color,soul}
+\usepackage{url}
+\usepackage{tocloft}
+\usepackage{acro}
+
+\usepackage{hyperref}
+\hypersetup{%
+    pdfborder = {0 0 0},
+    colorlinks,
+    citecolor=,
+    filecolor=,
+    linkcolor=,
+    urlcolor=
+} 
+\urlstyle{same}
+
+
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{remark}[theorem]{Remark}
+
+\linespread{1.5}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\rmdefault}{phv} % Arial
+\renewcommand{\sfdefault}{phv} % Arial
+
+%Remove chapter numbers from sections.
+%\renewcommand*\thesection{\arabic{section}}
+\renewcommand*\contentsname{\large{TABLE OF CONTENTS}}
+\renewcommand*\listtablename{\large{LIST OF TABLES}}
+\renewcommand*\listfigurename{\large{LIST OF FIGURES}}
+\renewcommand*\listalgorithmcfname{\large{LIST OF ALGORITHMS}}
+\renewcommand*\algorithmcfname{Algorithm}
+\renewcommand*\algorithmautorefname{algorithm}
+\renewcommand*\lstlistingname{Code}
+\renewcommand*\lstlistlistingname{LIST OF CODES}
+\DeclareCaptionType{code}[Code Listing][\large{LIST OF CODES}] 
+
+\addto\captionsenglish{\renewcommand{\figurename}{Figure}}
+\addto\captionsenglish{\renewcommand{\tablename}{Table}}
+\addto\captionsenglish{\renewcommand{\bibname}{References}}
+\tolerance=10000
+\hyphenpenalty=5000

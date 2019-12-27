@@ -1,0 +1,35 @@
+\contentsline {section}{PLAGIARISM STATEMENT}{iii}{Doc-Start}%
+\contentsline {paragraph}{Project Group Members:}{iii}{section*.1}%
+\contentsline {paragraph}{Project Supervisors:}{iii}{section*.2}%
+\contentsline {section}{ACKNOWLEDGEMENTS}{v}{section*.2}%
+\contentsline {section}{KEYWORDS}{vii}{section*.2}%
+\contentsline {section}{ABSTRACT}{ix}{section*.2}%
+\contentsline {section}{\"{O}ZET}{xi}{section*.2}%
+\contentsline {section}{TABLE OF CONTENTS}{xiii}{section*.2}%
+\contentsline {section}{LIST OF FIGURES}{xv}{chapter*.3}%
+\contentsline {section}{LIST OF TABLES}{xvii}{chapter*.4}%
+\contentsline {section}{LIST OF ALGORITHMS}{xix}{chapter*.5}%
+\contentsline {section}{LIST OF CODES}{xxi}{chapter*.6}%
+\contentsline {section}{LIST OF ABBREVIATIONS}{xxiii}{chapter*.7}%
+\babel@toc {turkish}{}
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Description of the Problem}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Project Goal(s)}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Project Output(s)}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Project Activities and Schedule}{2}{section.1.4}%
+\contentsline {chapter}{\numberline {2}DESIGN}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}High Level Design}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Detailed Design}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Realistic Restrictions and Conditions in the Design}{4}{section.2.3}%
+\contentsline {chapter}{\numberline {3}IMPLEMENTATION, TESTS and TEST DISCUSSIONS}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Implementation of the Product}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Tests and Results of Tests}{5}{section.3.2}%
+\contentsline {chapter}{\numberline {4}CONCLUSIONS}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Summary}{7}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Cost Analysis}{7}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Benefits of the Project}{8}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Future Work}{8}{section.4.4}%
+\contentsline {chapter}{References}{9}{section.4.4}%
+\contentsline {chapter}{APPENDICES}{9}{appendix*.9}%
+\contentsline {chapter}{APPENDIX A: REQUIREMENTS SPECIFICATION DOCUMENT}{15}{appendix*.15}%
+\contentsline {chapter}{APPENDIX B: DESIGN SPECIFICATION DOCUMENT}{17}{appendix*.16}%

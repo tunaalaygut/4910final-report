@@ -1,0 +1,9 @@
+###
+### MAKE SURE THAT YOU HAVE ADDED pdflatex TO PATH.
+###
+
+cd C:\...............\FinalReport-2019-11-14-Rev-1.0-LATEX
+
+del -f ___main.pdf
+
+pdflatex -synctex=1 -interaction=nonstopmode ___main.tex

@@ -1,0 +1,18 @@
+DOCPATH=/home/jaws/Desktop/FinalReport-2019-11-14-Rev-1.0-LATEX ;\
+LATEXPATH=/usr/local/texlive/2019/bin/x86_64-linux ;\
+cd $DOCPATH ;\
+rm -f ___main.pdf ;\
+$LATEXPATH/latex -interaction=nonstopmode ___main.tex ;\
+$LATEXPATH/bibtex ___main ;\
+$LATEXPATH/latex -interaction=nonstopmode ___main.tex ;\
+$LATEXPATH/latex -interaction=nonstopmode ___main.tex ;\
+$LATEXPATH/dvips -R0 -o ___main.ps ___main.dvi ;\
+/usr/bin/ps2pdf ___main.ps ;\
+rm -f ___main.aux ___main.dvi ___main.loa ___main.locode ___main.lof ___main.log ___main.lot ___main.out ___main.ps ___main.toc ___main.bbl ___main.blg
+
+
+
+
+
+
+
